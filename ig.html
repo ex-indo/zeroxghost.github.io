@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html dir='ltr' lang='en-US' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
+<head>
+<meta content='width=device-width, initial-scale=1' name='viewport'/>
+<meta content='text/html; charset=UTF-8' http-equiv='Content-Type'/>
+<title>Instagram Photo & Video Downloader</title>
+<!-- Chrome, Firefox OS and Opera -->
+<meta content='#208bfd' name='theme-color'/>
+<meta content='Description' name='Description'/>
+<meta content='keywords' name='Keywords'/>
+<meta content='index, follow' name='robots'/>
+<meta content='2 days' name='revisit-after'/>
+<meta content='Indonesia' name='language'/>
+<meta content='Indonesia' name='geo.country'/>
+<meta content='Kalimantan Selatan' name='geo.placename'/>
+<meta content='global' name='distribution'/>
+<meta content='text/html; charset=UTF-8' http-equiv='Content-Type'/>
+<meta content='true' name='MSSmartTagsPreventParsing'/>
+<!-- Windows Phone -->
+<meta content='#208bfd' name='msapplication-navbutton-color'/>
+<link href='https://www.websiteurl.com/' rel='canonical'/>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<meta content='https://tools.indoghosteternity.asia/' property='og:url'/>
+<meta content='IG Downloader' property='og:title'/>
+<meta content='ZeroXGhost666' property='og:description'/>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+
+<style>
+input {
+display: inline-block;
+width: 80%;
+max-width: 50%;
+max-width: calc(100% - 8em);
+min-height: 2.8em;
+padding: 0.5em;
+margin: 0.5em 0;
+background: #f3f3f3;
+border-color: #208bfd;
+border-width: 1px;
+color: #212121;
+transition: all 500ms ease;
+}
+input:focus, input:hover {
+border-color: #208bfd;
+transition: all 500ms ease;
+}
+.dummyData{
+display:none;
+}
+.search {
+display: inline-block;
+padding: 0 1em;
+text-align: center;
+min-width: 2.8em;
+height: 2.8em;
+margin: 0;
+background: #208bfd;
+border: 2px solid #212121;
+color: #f9f9f9;
+transition: all 500ms ease;
+}
+.search:focus, .search:hover {
+background: #212121;
+border-color: #f9f9f9;
+cursor: pointer;
+transition: all 500ms ease;
+}
+.technicalarpData {
+margin: 0 auto;
+padding: 4em 1em;
+max-width: 40em;
+}
+.technicalarpData video, .technicalarpData img {
+width: calc(100% - 4em);
+margin: 2em;
+}
+.technicalarpData .download {
+text-decoration: none;
+display: inline-block;
+padding: 0.5em 1em;
+background: #208bfd;
+border-color: #208bfd;
+border-width: 1px;
+color: #f9f9f9;
+transition: all 500ms ease;
+}
+.technicalarpData .download:focus, .technicalarpData .download:hover {
+background: #208bfd;
+border-color: #f9f9f9;
+cursor: pointer;
+transition: all 500ms ease;
+}
+
+.image-placeholder {
+margin: auto;
+width: 89%;
+max-width: 500px;
+display: block;
+height: 380px;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center center;
+background-image: url(https://1.bp.blogspot.com/-cqiEtwNip-E/XzKG3SLLZ4I/AAAAAAAAAV4/ZL6TRd1-LooiM0HSntdCgabD2zSzjEGbgCLcBGAsYHQ/s0/Technical%2BArp%2Bimage%2Bplaceholder.png);
+}
+
+body {
+margin: 0;
+padding: 0;
+font-family: "consolas",monospace;
+font-size: 14px;
+line-height: 1.5;
+background: #f9f9f9;
+color: #333;
+}
+.adspacebytechnicalarp {
+padding:2em;
+box-shadow:0 5px 15px rgba(0,0,0,.16);
+border-radius:5px;
+margin-top:1em;
+background:#fff;
+text-align:left
+}
+
+.pasterlink{
+top: 0;
+left: 0;
+width: 100%;
+height: 4em;
+background: #208bfd;
+margin: 0 auto;
+text-align: center;
+color: red;
+}
+::placeholder {
+color: #212121;
+}
+</style>
+</head>
+<!--Instagram Downloader-->
+<body>
+<div class='pasterlink'>
+<input id="visittechnicalarp" placeholder='Tempel Linknya Disini' type='url' value=''/>
+<button class='download btn-outline' type="submit" onclick='getMedia()'>Gass</button>
+<div class="adspacebytechnicalarp container">
+      Place you Ad Code 1     
+	 </div>
+<br>
+</div>
+
+    </br>
+
+<section class='technicalarpData'>
+<br>
+
+<div class='image-placeholder'></div>
+<p>Jika gambar tekan lama pada gambar lalu pilih download gambar.</p>
+</section>
+
+ <div class=" container adspacebytechnicalarp">
+      Place you Ad Code 2     
+	 </div>
+<div class="dummyData">NO Data</div>
+  <div class='main no-items section' id='main'></div>
+
+<!-- CONTACT US -->
+    <div id="contactus" class="modal fade technicalarpModal" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header alert-success">
+                    <h4 class="modal-title">Kontak Saya</h4>
+                    <button aria-hidden="true" data-dismiss="modal" class="close" type="button">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <p> email : zeroxsec666@gmail.com</p>
+                </div>
+                <div class="modal-footer">
+                    <button data-dismiss="modal" class="btn btn-default" type="button">Close</button>
+                </div>
+            </div>
+            <!-- /.modal-content -->
+        </div>
+        <!-- /.modal-dialog -->
+    </div>
+    <!-- / CONTACT US -->
+
+    <!-- PRIVACY -->
+    <div id="privacy" class="modal fade technicalarpModal" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header bg-warning">
+                    <h4 class="modal-title">PRIVACY POLICY</h4>
+                    <button aria-hidden="true" data-dismiss="modal" class="close" type="button">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <p>PRIVACY POLICY </p>
+                </div>
+                <div class="modal-footer">
+                    <button data-dismiss="modal" class="btn btn-default" type="button">close</button>
+                </div>
+            </div>
+            <!-- /.modal-content -->
+        </div>
+        <!-- /.modal-dialog -->
+    </div>
+    <!-- / PRIVACY -->
+
+    <!-- ABOUT US -->
+    <div id="aboutus" class="modal fade technicalarpModal" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header bg-primary">
+                    <h4 class="modal-title">Tentang Saya</h4>
+                    <button aria-hidden="true" data-dismiss="modal" class="close" type="button">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <p>Nama Dodi Lorentz Asal Kalsel gaes.</p>
+                </div>
+                <div class="modal-footer">
+                    <button data-dismiss="modal" class="btn btn-default" type="button">close</button>
+                </div>
+            </div>
+            <!-- /.modal-content -->
+        </div>
+        <!-- /.modal-dialog -->
+    </div>
+    <!-- / ABOUT US -->
+    
+    
+
+<div style='text-align: center;'>
+<div class="Container text-center mb-10">
+  <a href="#privacy" data-toggle="modal" data-target="#privacy" >Privacy Policy </a> | 
+    <a href="#aboutus" data-toggle="modal" data-target="#aboutus" >About Us </a> | 
+	  <a href="#contactus" data-toggle="modal" data-target="#contactus" >Contact Us</a>
+</div>
+
+<div class='copyright-area'>
+Created By <a href='https://zeroxghost.my.id' rel='dofollow' title='Copyright'>ZeroXGhost666</a> &#169; <script>document.write(new Date().getFullYear())</script>
+
+</div>
+</div>
+<br>
+<br>
+<br>
+<!-- Add this Sticky Sidebar and Inline Share - By Technical Arp Login to Addthis and Change as per your Requirement-->
+ <!--<script type="text/javascript" src="http://s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5c98f50a092025d4"></script>
+
+<!-- Theme Functions JS by Technical Arp-->
+<script>
+ const render = document.querySelector('.technicalarpData');
+  const TECHNICALARPDUMMY = document.querySelector('.dummyData');
+ 
+//Get Data - Sorry Encrypted Because it was already encryted - We Just Changed UI of it. 
+var _0x72c0=["\x76\x69\x64\x65\x6F","\x63\x72\x65\x61\x74\x65\x45\x6C\x65\x6D\x65\x6E\x74","\x69\x64","\x69\x6E\x73\x74\x61\x76\x69\x64\x65\x6F","\x73\x72\x63","\x63\x6F\x6E\x74\x65\x6E\x74","\x63\x6F\x6E\x74\x72\x6F\x6C\x73","\x61\x75\x74\x6F\x70\x6C\x61\x79","\x49\x6E\x73\x69\x64\x65\x20\x56\x69\x64\x65\x6F","\x6C\x6F\x67","\x70","\x74\x65\x78\x74\x43\x6F\x6E\x74\x65\x6E\x74","\x43\x6C\x69\x63\x6B\x20\x74\x68\x65\x20\x72\x69\x67\x68\x74\x20\x62\x75\x74\x74\x6F\x6E\x20\x6F\x6E\x20\x76\x69\x64\x65\x6F\x20\x61\x6E\x64\x20\x73\x65\x6C\x65\x63\x74\x20\x73\x61\x76\x65\x20\x61\x73\x2E","\x69\x6E\x6E\x65\x72\x48\x54\x4D\x4C","","\x61\x70\x70\x65\x6E\x64\x43\x68\x69\x6C\x64","\x69\x6D\x67","\x69\x6E\x73\x74\x61\x49\x6D\x67","\x49\x6E\x73\x69\x64\x65\x20\x49\x6D\x67","\x43\x6C\x69\x63\x6B\x20\x74\x68\x65\x20\x72\x69\x67\x68\x74\x20\x62\x75\x74\x74\x6F\x6E\x20\x6F\x6E\x20\x74\x68\x65\x20\x69\x6D\x61\x67\x65\x20\x61\x6E\x64\x20\x73\x65\x6C\x65\x63\x74\x20\x73\x61\x76\x65\x20\x69\x6D\x61\x67\x65\x2E\x2E"];const createVideo=(_0xd7b7x2)=>{let _0xd7b7x3=document[_0x72c0[1]](_0x72c0[0]);_0xd7b7x3[_0x72c0[2]]= _0x72c0[3];_0xd7b7x3[_0x72c0[4]]= _0xd7b7x2[_0x72c0[5]];_0xd7b7x3[_0x72c0[6]]= true;_0xd7b7x3[_0x72c0[7]]= true;console[_0x72c0[9]](_0x72c0[8]);let _0xd7b7x4=document[_0x72c0[1]](_0x72c0[10]);_0xd7b7x4[_0x72c0[11]]= _0x72c0[12];render[_0x72c0[13]]= _0x72c0[14];render[_0x72c0[15]](_0xd7b7x3);render[_0x72c0[15]](_0xd7b7x4)};const createImg=(_0xd7b7x2)=>{let _0xd7b7x6=document[_0x72c0[1]](_0x72c0[16]);_0xd7b7x6[_0x72c0[2]]= _0x72c0[17];_0xd7b7x6[_0x72c0[4]]= _0xd7b7x2[_0x72c0[5]];console[_0x72c0[9]](_0x72c0[18]);let _0xd7b7x4=document[_0x72c0[1]](_0x72c0[10]);_0xd7b7x4[_0x72c0[11]]= _0x72c0[19];render[_0x72c0[13]]= _0x72c0[14];render[_0x72c0[15]](_0xd7b7x6);render[_0x72c0[15]](_0xd7b7x4)} 
+
+var _0x52b7=["\x68\x74\x74\x70\x73\x3A\x2F\x2F\x77\x77\x77\x2E\x69\x6E\x73\x74\x61\x67\x72\x61\x6D\x2E\x63\x6F\x6D\x2F\x28\x2E\x2B\x3F\x29","\x69\x6E\x6E\x65\x72\x48\x54\x4D\x4C","\x3C\x64\x69\x76\x20\x63\x6C\x61\x73\x73\x3D\x27\x69\x6D\x61\x67\x65\x2D\x70\x6C\x61\x63\x65\x68\x6F\x6C\x64\x65\x72\x27\x3E\x3C\x2F\x64\x69\x76\x3E","\x76\x61\x6C\x75\x65","\x23\x76\x69\x73\x69\x74\x74\x65\x63\x68\x6E\x69\x63\x61\x6C\x61\x72\x70","\x71\x75\x65\x72\x79\x53\x65\x6C\x65\x63\x74\x6F\x72","\x6C\x6F\x67","\x6D\x61\x74\x63\x68","\x49\x6E\x73\x69\x64\x65\x20\x50\x61\x74\x74\x65\x72\x6E","\x49\x6E\x73\x69\x64\x65\x20\x55\x52\x4C","\x49\x6E\x73\x69\x64\x65\x20\x46\x65\x74\x63","\x6D\x65\x74\x61\x5B\x70\x72\x6F\x70\x65\x72\x74\x79\x3D\x22\x6F\x67\x3A\x76\x69\x64\x65\x6F\x22\x5D","\x6D\x65\x74\x61\x5B\x70\x72\x6F\x70\x65\x72\x74\x79\x3D\x22\x6F\x67\x3A\x69\x6D\x61\x67\x65\x22\x5D","\x70\x6C\x61\x63\x65\x68\x6F\x6C\x64\x65\x72","\x49\x6E\x76\x61\x6C\x69\x64\x20\x61\x64\x64\x72\x65\x73\x73\x2C\x20\x75\x73\x65\x20\x61\x20\x70\x72\x6F\x70\x65\x72\x20\x49\x6E\x73\x61\x67\x72\x61\x6D\x20\x6C\x69\x6E\x6B","\x73\x65\x74\x41\x74\x74\x72\x69\x62\x75\x74\x65","\x76\x69\x73\x69\x74\x74\x65\x63\x68\x6E\x69\x63\x61\x6C\x61\x72\x70","\x67\x65\x74\x45\x6C\x65\x6D\x65\x6E\x74\x42\x79\x49\x64","","\x66\x6F\x63\x75\x73","\x45\x72\x72\x6F\x72\x20\x65\x78\x74\x72\x61\x63\x74\x69\x6E\x67\x20\x49\x6E\x73\x74\x61\x67\x72\x61\x6D\x20\x69\x6D\x61\x67\x65\x20\x2F\x20\x76\x69\x64\x65\x6F\x2E","\x74\x68\x65\x6E","\x74\x65\x78\x74"];const getMedia=()=>{var _0x572bx2= new RegExp(_0x52b7[0]);render[_0x52b7[1]]= _0x52b7[2];let _0x572bx3=document[_0x52b7[5]](_0x52b7[4])[_0x52b7[3]];console[_0x52b7[6]](_0x572bx3);if(_0x572bx3[_0x52b7[7]](_0x572bx2)){console[_0x52b7[6]](_0x52b7[8]);if(_0x572bx3){console[_0x52b7[6]](_0x52b7[9]);fetch(_0x572bx3)[_0x52b7[21]]((_0x572bx4)=>_0x572bx4[_0x52b7[22]]())[_0x52b7[21]]((_0x572bx4)=>{TECHNICALARPDUMMY[_0x52b7[1]]= _0x572bx4;console[_0x52b7[6]](_0x52b7[10]);let _0x572bx5=setTimeout(()=>{let _0x572bx6=document[_0x52b7[5]](_0x52b7[11]);if(_0x572bx6){createVideo(_0x572bx6)}else {let _0x572bx7=document[_0x52b7[5]](_0x52b7[12]);if(_0x572bx7){createImg(_0x572bx7)}else {document[_0x52b7[5]](_0x52b7[4])[_0x52b7[15]](_0x52b7[13],_0x52b7[14]);document[_0x52b7[17]](_0x52b7[16])[_0x52b7[3]]= _0x52b7[18];document[_0x52b7[17]](_0x52b7[16])[_0x52b7[19]]();alert(_0x52b7[20])}};clearTimeout(_0x572bx5)},200)})}}else {document[_0x52b7[5]](_0x52b7[4])[_0x52b7[15]](_0x52b7[13],_0x52b7[14]);document[_0x52b7[17]](_0x52b7[16])[_0x52b7[3]]= _0x52b7[18];document[_0x52b7[17]](_0x52b7[16])[_0x52b7[19]]()}}
+
+</script>
+
+</body>
+</html>
